@@ -32,6 +32,6 @@ public class BootCompletedReceiver extends BroadcastReceiver {
         RefreshRateUtils.setFPS(RefreshRateUtils.getRefreshRate(context));
 
         DiracUtils.initialize(context);
-        ThermalUtils.startService(context);
+        ThermalUtils.initialize(context);
     }
 }
