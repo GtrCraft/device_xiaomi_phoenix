@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/xtended_phoenix.mk
+    $(LOCAL_DIR)/awaken_phoenix.mk
 
 COMMON_LUNCH_CHOICES := \
-    xtended_phoenix-user \
-    xtended_phoenix-userdebug \
-    xtended_phoenix-eng
+    awaken_phoenix-user \
+    awaken_phoenix-userdebug \
+    awaken_phoenix-eng
