@@ -21,9 +21,9 @@ TARGET_SCREEN_HEIGHT := 2400
 TARGET_SCREEN_WIDTH := 1080
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    PRIVATE_BUILD_DISC="sunfish-user 11 RP1A.201005.006 6828489 release-keys"
+    PRIVATE_BUILD_DISC="sunfish-user 11 RP1A.201105.002 6869500 release-keys"
 
-BUILD_FINGERPRINT := google/sunfish/sunfish:11/RP1A.201005.006/6828489:user/release-keys
+BUILD_FINGERPRINT := google/sunfish/sunfish:11/RP1A.201105.002/6869500:user/release-keys
 
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.build.fingerprint=$(BUILD_FINGERPRINT)
